@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<title>Orba FW Updates</title>
+		<description>AppCast for Orba FW Updates</description>
+		<language>en</language>
+		<!-- Insert generated item nodes here (only FW items), in chronological descending order -->
+		<item>
+			<title>Version 0.15.13</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.15.13/changelog.html
+			</releaseNotesLink>
+			<pubDate>2021-10-01 21:05:52.163472</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.15.13/Orba_FW_v0.15.13.zip" sha256="4825114ee920806924e0eb41f75dcaee282e6622b347b33cd1620a90f191ea48" version="0.15.13" length="645821" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.15.4</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.15.4/changelog.html
+			</releaseNotesLink>
+			<pubDate>2021-05-19 03:59:47.658567</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.15.4/Orba_FW_v0.15.4.zip" sha256="a14999f67aa61ad6c6979579e6b077cc0e4f6b7b33381f05f54db059770576b8" version="0.15.4" length="642403" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.15.2</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.15.2/changelog.html
+			</releaseNotesLink>
+			<pubDate>2021-04-05 16:37:45.104188</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.15.2/Orba_FW_v0.15.2.zip" sha256="761dfcd5ed3a1f9c62ceeed1be6cae30e548cf61f6df19b3bcf7f26a7883e7e1" version="0.15.2" length="641785" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.14.15</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.14.15/changelog.html
+			</releaseNotesLink>
+			<pubDate>2021-02-05 17:30:25.245811</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.14.15/Orba_FW_v0.14.15.zip" sha256="d19474b41b2d10f69229298c74661b2de72f3a342724b48f613579b81dbaa9f7" version="0.14.15" length="639576" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.14.11</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.14.11/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-12-24 17:46:33.354681</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.14.11/Orba_FW_v0.14.11.zip" sha256="de25e0ce14c87fb00863c0942cfe7fca45629d88dd77bde9dae8744d274c8c8d" version="0.14.11" length="630374" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.14.8</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.14.8/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-11-02 22:42:08.194833</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.14.8/Orba_FW_v0.14.8.zip" sha256="cc275da56a9618d0154cdf87d1b3fd7fa7e32ebba7628445f585bfca3bfd8a2d" version="0.14.8" length="626607" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.19</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.19/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-08-24 19:24:02.721712</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.19/Orba_FW_v0.13.19.zip" sha256="6bf1bf58a3c5898ce87b64676f2e0f9d775e3b955d3659262100d5a5e1688227" version="0.13.19" length="621811" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.16</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.16/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-08-06 19:12:26.441308</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.16/Orba_FW_v0.13.16.zip" sha256="b57f7c56ae0f40fe5a6be9440d91547cd155c2e530be5a99262a7d6d836525b0" version="0.13.16" length="620507" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.15</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.15/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-07-30 15:44:07.680111</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.15/Orba_FW_v0.13.15.zip" sha256="b31d01ea2764cc0ca359d6f45572bd79e6bdc1dc24083932cbe5c1401443c5cb" version="0.13.15" length="619774" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.12</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.12/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-07-17 21:46:10.387111</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.12/Orba_FW_v0.13.12.zip" sha256="8184112d2aa21d360947f023b693cec0f72519f500accaf272e173ec30d0bdf4" version="0.13.12" length="618659" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.11</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.11/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-07-09 15:37:29.363522</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.11/Orba_FW_v0.13.11.zip" sha256="b6594e03dec843dbffc108351a5994cb172d55fa4824ef3007ef26df2ea63b22" version="0.13.11" length="617993" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.10</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.10/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-07-02 15:21:58.943252</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.10/Orba_FW_v0.13.10.zip" sha256="98f5e5d9e167ef772cbb254117d90a149fc4a6e9fb9e1fe45715cd6e8d4b3c8f" version="0.13.10" length="616232" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.9</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.9/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-06-30 00:30:33.069593</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.9/Orba_FW_v0.13.9.zip" sha256="d521063546babbcc71efce9516defcca7180b36067ad4796b4db256e18e84729" version="0.13.9" length="615618" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.5</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.5/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-05-19 23:06:00.013785</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.5/Orba_FW_v0.13.5.zip" sha256="0dfc3db9d2192f94106ed7d68833b54a9e26b103b9eb5453d56727fbf38b100c" version="0.13.5" length="613670" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.4</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.4/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-05-16 00:02:58.674434</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.4/Orba_FW_v0.13.4.zip" sha256="ca6c47c64a6642e12513d85482e6e0f2d8cadae8424bb6ae0c7a1619b8f2a3bf" version="0.13.4" length="613374" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.13.0</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.13.0/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-29 05:55:02.657953</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.13.0/Orba_FW_v0.13.0.zip" sha256="3486add265f3289e67dc23b7a5ad600da49c429451a62e9e5e3f519a1fc7b7e0" version="0.13.0" length="612463" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.12.10</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.12.10/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-27 21:47:33.532620</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.12.10/Orba_FW_v0.12.10.zip" sha256="411fa1b7f54618c0f1816be0c54fb64316e56eb56d853cb5e28a26ca8a1ff9df" version="0.12.10" length="611666" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.12.8</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.12.8/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-24 20:13:10.942550</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.12.8/Orba_FW_v0.12.8.zip" sha256="5ef9b0b2f6a6519e5609f93720c195a997f1b729d892cdb673fbebe33a3b4eb6" version="0.12.8" length="610318" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.12.7</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.12.7/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-23 22:49:47.632696</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.12.7/Orba_FW_v0.12.7.zip" sha256="e66e0a71713712db621371ac8c0119518599a8aa84fd4e018fdf0f341ce43108" version="0.12.7" length="609894" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.12.3</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.12.3/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-22 23:27:10.976677</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.12.3/Orba_FW_v0.12.3.zip" sha256="7cd7fb6720a7cbcbaed820d35657f5801db1ab9ddbac22b0ef4b289b80d128a8" version="0.12.3" length="609278" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.12.1</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.12.1/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-21 22:35:47.931255</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.12.1/Orba_FW_v0.12.1.zip" sha256="8eb429a1cab1b48f963da77cd3c9ecd8d3be9234a50c270885e44463bad790a1" version="0.12.1" length="608695" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.11.8</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.11.8/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-20 23:34:06.071134</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.11.8/Orba_FW_v0.11.8.zip" sha256="c148f79aaea41765d4f80500a07610fe850665e76d4a421f3ec6a5ed66af9605" version="0.11.8" length="608310" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.11.6</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.11.6/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-17 22:16:29.475163</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.11.6/Orba_FW_v0.11.6.zip" sha256="e465025bf16d850a75d63e0e1d596c13ee954268d12f1ed54c2e42fe36143317" version="0.11.6" length="606792" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.11.4</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.11.4/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-14 22:33:15.003791</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.11.4/Orba_FW_v0.11.4.zip" sha256="0282ac860cce8d5ba06fff8a4cbf8dbe1ff43c7644d7f26e9004e8e78d104273" version="0.11.4" length="604848" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.11.3</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.11.3/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-14 18:25:27.398232</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.11.3/Orba_FW_v0.11.3.zip" sha256="d33aa69fa17393784c07c290ae10d21c65a3d906a26700101d04a43537812ed2" version="0.11.3" length="604511" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.10.0</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.10.0/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-04-09 16:05:11.637047</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.10.0/Orba_FW_v0.10.0.zip" sha256="87c56bfb5697a7253896c405068dacb31523cc4609990ef683e30091bfcbbf4c" version="0.10.0" length="601419" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.0.1</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.0.1/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-03-30 00:00:12.360334</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.0.1/Orba_FW_v0.0.1.zip" sha256="a1b0d3761b15b13924ae0bc58a26c7d57bbcedef8a96ecafd6ac98b134984387" version="0.0.1" length="595403" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.0.1</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.0.1/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-03-30 00:00:12.360334</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.0.1/Orba_FW_v0.0.1.zip" sha256="a1b0d3761b15b13924ae0bc58a26c7d57bbcedef8a96ecafd6ac98b134984387" version="0.0.2" length="595403" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.0.1</title>
+			<releaseNotesLink>
+				https://storage.googleapis.com/orba_firmware_updates/v0.0.1/changelog.html
+			</releaseNotesLink>
+			<pubDate>2020-03-30 00:00:12.360334</pubDate>
+			<enclosure url="https://storage.googleapis.com/orba_firmware_updates/v0.0.1/Orba_FW_v0.0.1.zip" sha256="a1b0d3761b15b13924ae0bc58a26c7d57bbcedef8a96ecafd6ac98b134984387" version="0.1.2" length="595403" type="application/octet-stream" />
+		</item>
+	</channel>
+</rss>
