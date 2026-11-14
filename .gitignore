@@ -3,3 +3,12 @@ __pycache__/
 *.pyc
 .venv/
 re-venv/
+
+# Personal investigation log
+firmware/log.md
+
+# Extracted / decompiled firmware binaries
+firmware/tools/firmware-segments/
+firmware/device-backup/
+firmware/tools/diag-stub/*.bin
+firmware/tools/proof-test/*.bin
