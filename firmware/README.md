@@ -1,7 +1,5 @@
 # Orba 1: Firmware Reference
 
-See also [../physical-repair](../physical-repair/README.md) for the hardware side (battery, teardown).
-
 ## Hardware overview
 
 | Chip | Role | Notes |
@@ -14,16 +12,19 @@ See also [../physical-repair](../physical-repair/README.md) for the hardware sid
 
 ## Firmware files (v0.15.13)
 
-The official 0.15.13 firmware is embedded inside the signed Orba app (`Orba.exe`). Copies are in `official_0.15.13_from_app/`.
+The official 0.15.13 firmware is embedded inside the signed Orba app (`Orba.exe`). The binary firmware files are Artiphon's proprietary software and are **not distributed in this repo** incase it breaches copyright? The table below documents what exists and where to find it.
 
-| File | Chip | Description |
-|---|---|---|
-| `delorean_crc 0.15.13.hex` | STM32 | Main MCU image. Two segments: 64 KB at `0x08000000` (flash) and 124 KB at `0x20010000` (RAM). |
-| `delorean.bin` | STM32 | Same image as the HEX, raw binary. |
-| `esp32_delorean_047ca2c3.zip` | ESP32 | Bluetooth/audio firmware bundle. |
-| `bootloader.bin` | ESP32 | ESP32 bootloader. |
-| `partitions_singleapp.bin` | ESP32 | ESP32 partition table. |
-| `21_X0_CY8C_Touch_A0_2988ebe.cyacd` | CY8C | Capacitive touch chip firmware. |
+To obtain the files yourself: install the Orba app (v0.15.36) and extract them from the executable — they are embedded as named resources.
+
+| File | Chip | Description | In repo? |
+|---|---|---|---|
+| `delorean_crc 0.15.13.hex` | STM32 | Main MCU image. Two segments: 64 KB at `0x08000000` (flash) and 124 KB at `0x20010000` (RAM). | No — copyright |
+| `delorean.bin` | STM32 | Same image as the HEX, raw binary. | No — copyright |
+| `esp32_delorean_047ca2c3.zip` | ESP32 | Bluetooth/audio firmware bundle. | No — copyright |
+| `bootloader.bin` | ESP32 | ESP32 bootloader. | No — copyright |
+| `partitions_singleapp.bin` | ESP32 | ESP32 partition table. | No — copyright |
+| `21_X0_CY8C_Touch_A0_2988ebe.cyacd` | CY8C | Capacitive touch chip firmware. | No — copyright |
+| `CHANGELOG_BETA.md` | — | Artiphon's internal changelog, included for reference. | Yes |
 
 The firmware update feed (`storage.googleapis.com/orba_firmware_updates/appcast_fw.xml`) is no longer served (closed billing account). An archived copy is at `appcast_fw.xml`.
 

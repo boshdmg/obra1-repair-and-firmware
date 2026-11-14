@@ -7,7 +7,13 @@ re-venv/
 # Personal investigation log
 firmware/log.md
 
-# Extracted / decompiled firmware binaries
+# Proprietary Artiphon firmware binaries (copyright — obtain from the Orba app)
+firmware/official_0.15.13_from_app/*.bin
+firmware/official_0.15.13_from_app/*.hex
+firmware/official_0.15.13_from_app/*.zip
+firmware/official_0.15.13_from_app/*.cyacd
+
+# Extracted firmware segments and device backup
 firmware/tools/firmware-segments/
 firmware/device-backup/
 firmware/tools/diag-stub/*.bin
