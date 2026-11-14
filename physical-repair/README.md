@@ -6,7 +6,7 @@
 - The firmware on the main chip is intact (byte-identical to official v0.15.13), so the main suspect is power: battery or connections.
 
 ## Opening it (photo: photos/01-opening.webp)
-Source: Artiphon forum thread "Orba hacking knowledge base" (archived on the Wayback Machine), plus my own teardown.
+Source: Artiphon forum thread ["Orba hacking knowledge base"](https://artiphon.freshdesk.com/support/discussions/topics/44001013185) (also at [support.artiphon.com](https://support.artiphon.com/support/discussions/topics/44001013185)), plus my own teardown.
 1. Unplug USB.
 2. Hold the top and **twist the bottom firmly clockwise**; it unscrews.
 3. The base grille is held by 4 small screws. A Torx T6 screw driver is needed.

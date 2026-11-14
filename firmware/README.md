@@ -26,7 +26,7 @@ To obtain the files yourself: install the Orba app (v0.15.36) and extract them f
 | `21_X0_CY8C_Touch_A0_2988ebe.cyacd` | CY8C | Capacitive touch chip firmware. | No — copyright |
 | `CHANGELOG_BETA.md` | — | Artiphon's internal changelog, included for reference. | Yes |
 
-The firmware update feed (`storage.googleapis.com/orba_firmware_updates/appcast_fw.xml`) is no longer served (closed billing account). An archived copy is at `appcast_fw.xml`.
+The firmware update feed (`https://storage.googleapis.com/orba_firmware_updates/appcast_fw.xml`) is no longer served (closed billing account — returns 403). An archived copy is at `appcast_fw.xml`.
 
 ---
 
