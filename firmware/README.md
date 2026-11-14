@@ -1,9 +1,11 @@
-# Orba 1 recovery notes (12 Nov 2026)
+# Orba 1: firmware investigation
+
+See also [../physical-repair](../physical-repair/README.md) for the hardware side (battery, teardown).
 
 ## Where things stand
-- Device: Orba 1. Bootloader mode = STM32 ROM DFU, USB ID 0483:DF11. Chip has 512 KB flash.
+- Device: Orba 1. Bootloader mode = STM32 ROM DFU, USB ID 0483:DF11. Chip: STM32F730R8 (64 KB flash; the bootloader advertises a 512 KB layout).
 - Driver: WinUSB, installed with Zadig. dfu-util (bundled with the Orba app) can talk to the device.
-- Flash read on 12 Nov 2026 (`orba_flash_backup.bin`):
+- Flash read on 12 Nov 2026 (`device-backup/orba_flash_backup.bin`):
   - 0x08000000-0x0800FFFF (64 KB): **byte-for-byte identical to official firmware v0.15.13**.
   - 0x08010000-0x0807FFFF: blank. That's NORMAL: the official 0.15.13 image only uses the first 64 KB of internal flash.
   - CORRECTION: an earlier note said the main firmware was wiped. That was wrong. The STM32 firmware is intact.
@@ -19,18 +21,6 @@ embedded in it. Copies extracted to `official_0.15.13_from_app/` (CRC-checked):
 - `esp32_delorean_047ca2c3.zip`, `delorean.bin`, `bootloader.bin`, `partitions_singleapp.bin`: ESP32 (Bluetooth/audio co-processor)
 - `21_X0_CY8C_Touch_A0_2988ebe.cyacd`: capacitive touch chip firmware
 - `CHANGELOG_BETA.md`: Artiphon's internal changelog
-
-## What's needed (superseded, kept for reference)
-The main application image for 0x08010000. Either:
-1. An official `Orba_FW_v0.15.13.zip` (or another version). Check it against `official_firmware_hashes.txt`.
-2. A flash dump from a WORKING Orba 1. Have the owner put it in DFU mode (hold + while powering on),
-   install the WinUSB driver with Zadig, then run:
-       dfu-util -a 0 -s 0x08000000:524288 -U orba1_working_dump.bin
-   This is read-only and doesn't change their Orba.
-
-## Restoring (only once a verified image is in hand)
-    dfu-util -a 0 -s 0x08010000:leave -D app_image.bin
-(or write a full 512 KB dump at 0x08000000). Keep `orba_flash_backup.bin` so the current bootloader can be restored.
 
 ## Firmware reverse-engineering notes (v0.15.13, from the official app; done 12 Nov 2026)
 Chip: STM32F730 (64 KB flash). The internal flash holds startup, USB, buttons and drivers. A 124 KB block
@@ -75,6 +65,11 @@ NOT PROVEN
 OBSERVED
 - In bootloader mode the Orba stays powered for anything from a few seconds to over 30 minutes, and once lost power
   mid-write. Next step suggested: inspect and replace the battery and check the connectors, then retest with stable power.
+
+## Folder contents
+- `device-backup/`: the Orba's internal flash (64 KB used) and option bytes as read on 12 Nov 2026.
+- `official_0.15.13_from_app/`: official firmware extracted from Artiphon's signed Orba app 0.15.36.
+- `official_firmware_hashes.txt`: SHA-256/MD5 of every official Orba 1 firmware zip; `appcast_fw.xml`: archived update feed.
 
 ## tools/
 - reverse-engineering/: Capstone-based helpers (need `pip install capstone`). load.py parses the Intel HEX.
